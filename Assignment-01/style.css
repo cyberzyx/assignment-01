@@ -60,3 +60,31 @@ body {
   font-size: 48px;
   margin-bottom: 20px;
 }
+
+/* Action Section */
+.action {
+  display: flex;
+  padding: 60px 80px;
+  gap: 40px;
+  align-items: center;
+}
+
+.action-left {
+  flex: 1;
+}
+
+.action-left h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.action-left p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.action-right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
