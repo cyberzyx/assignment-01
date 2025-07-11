@@ -43,3 +43,20 @@ body {
   font-size: 40px;
   font-weight:900;
 }
+
+/* Banner */
+.banner {
+  background: url("/Assignment-01/Assets/Hero-bg.png") no-repeat center/cover;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.banner h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
